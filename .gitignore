@@ -1,0 +1,25 @@
+# Entorno
+.env.local
+.env.*.local
+
+# Symfony
+/backend/vendor/
+/backend/var/
+/backend/.phpunit.result.cache
+
+# Angular
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.angular/
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
